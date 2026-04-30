@@ -5,9 +5,9 @@ import { CriiptoVerifyProvider } from '@criipto/verify-react';
 export function IduraProvider({ children }: { children: React.ReactNode }) {
   return (
     <CriiptoVerifyProvider
-      domain="samples.criipto.id"
-      clientID="urn:criipto:samples:criipto:verify-react"
-      redirectUri="http://localhost:3000"
+      domain="albapost-test.test.idura.broker"
+      clientID="urn:my:application:identifier:913195"
+      redirectUri="https://bankid-test-pq10lmh6h-edward-6868s-projects.vercel.app/"
       sessionStore={typeof window !== "undefined" ? window.localStorage : undefined}
       prompt="login"
     >
