@@ -7,7 +7,7 @@ export function IduraProvider({ children }: { children: React.ReactNode }) {
     <CriiptoVerifyProvider
       domain="albapost-test.test.idura.broker"
       clientID="urn:my:application:identifier:913195"
-      redirectUri="https://bankid-test-pq10lmh6h-edward-6868s-projects.vercel.app/"
+      redirectUri="https://bankid-test-blond.vercel.app/"
       sessionStore={typeof window !== "undefined" ? window.localStorage : undefined}
       prompt="login"
     >
