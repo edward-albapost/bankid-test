@@ -8,7 +8,7 @@ export function IduraProvider({ children }: { children: React.ReactNode }) {
       domain="samples.criipto.id"
       clientID="urn:criipto:samples:criipto:verify-react"
       redirectUri="http://localhost:3000"
-      sessionStore={null}
+      sessionStore={window.localStorage}
       prompt="login"
       checkSession={false}
     >
