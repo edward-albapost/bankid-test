@@ -10,7 +10,6 @@ export function IduraProvider({ children }: { children: React.ReactNode }) {
       redirectUri="http://localhost:3000"
       sessionStore={window.localStorage}
       prompt="login"
-      checkSession={false}
     >
       {children}
     </CriiptoVerifyProvider>
