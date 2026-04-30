@@ -7,10 +7,9 @@ import { CriiptoVerifyProvider } from '@criipto/verify-react';
 export function IduraProvider({ children }: { children: React.ReactNode }) {
   return (
     <CriiptoVerifyProvider
-      
-      domain={process.env.NEXT_PUBLIC_SAMPLE_DOMAIN}
-      clientID={process.env.NEXT_PUBLIC_SAMPLE_CLIENT}
-      redirectUri={process.env.NEXT_PUBLIC_SAMPLE_REDIRECT_URI}
+      domain="samples.criipto.id";
+      clientID="urn:criipto:samples:criipto:verify-react";
+      redirectUri="http://localhost:3000";
       sessionStore={null}
       prompt="login"
       checkSession={false}
